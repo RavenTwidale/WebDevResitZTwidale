@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!--  Descriptions: 
+      Author:       ZTwidale
+      Date Created:  
+      Modifications: 
+-->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="descrition" content="">
+    <meta name="keywords" content="">
+    <title>Bradford Home-Schooling Contact Us And Schedules</title>
+
+    <link rel="Stylesheet" type="text/css" href="Styles/1.css">
+</head>
+<body>
+    <header>
+        <img src="Img/books-on-shelf.png" alt="Html Logo" width="16.4%" height="210">
+        <img src="Img/books-on-shelf.png" alt="Html Logo" width="16.4%" height="210">
+        <img src="Img/books-on-shelf.png" alt="Html Logo" width="16.4%" height="210">
+        <img src="Img/books-on-shelf.png" alt="Html Logo" width="16.4%" height="210">
+        <img src="Img/books-on-shelf.png" alt="Html Logo" width="16.4%" height="210">
+        <img src="Img/books-on-shelf.png" alt="Html Logo" width="16.4%" height="210">
+            <h1>Bradford Home Education</h1>
+            <h1>Contact Us And Schedules</h1>
+        <nav>
+            <ul>
+                <li> <a href="Index.html"> Home </a></li>
+                <li> <a href="About Us.html"> About Us </a></li>
+                <li> <a href="Video Uploads.html"> Video Uploads </a></li>
+                <li id="active"> <a href="Contact Us And Schedules.html"> Contact Us And Schedules </a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+        <h2>Contact Us</h2>
+        <h3>Please enter your information and query below</h3>
+        <h3>and we will get back to you as soon as possible</h3>
+        <form action="" method="GET">
+            <label for="first_name">First Name:<span class="required">*</span></label>
+            <input type="text" name="first_name" id="first_name" autofocus required><br>
+            <label for="last_name">Last Name:<span class="required">*</span></label>
+            <input type="text" name="last_name" id="last_name" required><br>
+            <label for="email">Email:<span class="required">*</span></label>
+            <input type="email" name="email" id="email" required placeholder="johndoe@example.com"><br>
+            <label for="gender">Gender:</label>
+            <input type="radio" id="gender" name="gender" value="male">Male
+            <input type="radio" id="gender" name="gender" value="female">Female
+            <input type="radio" id="gender" name="gender" value="other">Other <br>
+            <label for="internet">Heard of Us :</label>
+            <fieldset>
+                <input type="checkbox" id="internet" name="internet" value="internet" checked> Internet <br>
+                <input type="checkbox" class="marginl" id="hear" name="paper" value="paper"> Newspaper <br>
+                <input type="checkbox" class="marginl" id="hear" name="friend" value="friend"> Friend <br>
+                <input type="checkbox" class="marginl" id="hear" name="Add" value="Add"> Other <br>
+            </fieldset>
+            <label for="message">Query :</label>
+            <textarea cols="40" rows="6" id="message" name="message" placeholder="Your message must be less than 200 characters" data-maxlength="200"></textarea> <br>
+            <input type="submit" name="submit" id="button" value="Submit">
+            <input type="reset" name="reset" id="reset">
+        </form>
+        </section>
+        <section>
+            <table class="center">
+                <caption>Upload And Live Class Schedules</caption>
+                <tr>
+                    <th>              </th>
+                    <th>9:00am-10:00am</th>
+                    <th>10:15am-11:30am</th>
+                    <th>12:00pm-1:00pm</th>
+                    <th>2:00pm-3:30pm</th>
+                </tr>
+                <tr>
+                    <th>Monday</th>
+                    <th>Maths</th>
+                    <th>Option</th>
+                    <th>Science</th>
+                    <th>Science</th>
+                </tr>
+                <tr>
+                    <th>Tuesday</th>
+                    <th>English</th>
+                    <th>Option</th>
+                    <th>History</th>
+                    <th>History</th>
+                </tr>
+                <tr>
+                    <th>Wednesday</th>
+                    <th>Maths</th>
+                    <th>Option</th>
+                    <th>Sports</th>
+                    <th>Nutrition</th>
+                </tr>
+                <tr>
+                    <th>Thursday</th>
+                    <th>English</th>
+                    <th>Option</th>
+                    <th>Citizenship</th>
+                    <th>Weekly Quiz</th>
+                </tr>
+                <tr>
+                    <th>Friday</th>
+                    <th>Chosen Fun Activity</th>
+                </tr>
+            </table>
+        </section>
+        <section class="optionList">
+            <h3>Option List</h3>
+            <p>Geography</p>
+            <p>Religion</p>
+            <p>Music</p>
+            <p>Art</p>
+            <p>Design</p>
+            <p>IT and Computer Skills</p>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright Bradford Home Education 2021</p>
+    </footer>
+</body>
+</html>
